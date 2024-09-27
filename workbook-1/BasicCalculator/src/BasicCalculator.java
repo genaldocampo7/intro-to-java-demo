@@ -19,7 +19,7 @@ public class BasicCalculator {
         if (Objects.equals(answer,"A")) {
             System.out.println("Addition of the first number from second number is: " + (num1 + num2));
         } else if (Objects.equals(answer, "S")) {
-            System.out.println("Subtraction of the first number from second numer is: " + (num1 - num2));
+            System.out.println("Subtraction of the first number from second number is: " + (num1 - num2));
         } else if (Objects.equals(answer, "M")) {
             System.out.println("Multiplication of first number from second number is: " + (num1 * num2));
         } else if (Objects.equals(answer, "D")) {
@@ -27,3 +27,4 @@ public class BasicCalculator {
         }
     }
 }
+
