@@ -14,7 +14,7 @@ public static void main(String[] args) {
     float payRate = scannerObject.nextFloat();
     scannerObject.nextLine();
 
-    System.out.println("Hello " + name + "," + " your gross pay is: " + "$" + (hours + payRate));
+    System.out.println("Hello " + name + "," + " your gross pay is: " + "$" + (hours * payRate));
 
     }
 }
