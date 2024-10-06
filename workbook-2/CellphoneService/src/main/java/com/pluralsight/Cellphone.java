@@ -7,6 +7,7 @@ public class Cellphone {
     private String phoneNumber;
     private String owner;
 
+
     public Cellphone() {
         this.serialNumber = 0;
         this.model = "";
@@ -14,6 +15,12 @@ public class Cellphone {
         this.phoneNumber = "";
         this.owner = "";
         }
+
+
+     public void dial(String phoneNumberToCall) {
+         System.out.println(this.owner + "'s phone is calling " + phoneNumberToCall);
+     }
+
 
     public int getSerialNumber() {
         return serialNumber;
@@ -55,6 +62,7 @@ public class Cellphone {
         this.owner = owner;
     }
 }
+
 
 
 
