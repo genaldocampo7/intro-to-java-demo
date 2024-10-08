@@ -15,6 +15,16 @@ public class Cellphone {
         this.phoneNumber = "";
         this.owner = "";
         }
+// Overloaded Constructor
+    public Cellphone(int serialNumber, String model, String carrier, String phoneNumber, String owner ) {
+     this.serialNumber = serialNumber;
+     this.model = model;
+     this.carrier = carrier;
+     this.phoneNumber = phoneNumber;
+     this.owner = owner;
+
+    }
+
 
 
      public void dial(String phoneNumberToCall) {

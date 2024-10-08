@@ -46,8 +46,8 @@ public class CellphoneApplication {
         info.setOwner(owner);
 
 
-            return info;
-        }
+        return new Cellphone(serialNumber, model, carrier, phoneNumber, owner);
     }
+}
 
 
