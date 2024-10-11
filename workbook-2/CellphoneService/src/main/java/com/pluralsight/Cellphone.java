@@ -22,10 +22,7 @@ public class Cellphone {
      this.carrier = carrier;
      this.phoneNumber = phoneNumber;
      this.owner = owner;
-
     }
-
-
 
      public void dial(String phoneNumberToCall) {
          System.out.println(this.owner + "'s phone is calling " + phoneNumberToCall);
